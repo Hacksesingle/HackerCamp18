@@ -10,9 +10,17 @@ for i in range(0,len(X)):
 from sklearn.feature_extraction.text import CountVectorizer
 vectorizer = CountVectorizer(max_features=2000,min_df = 3, max_df = 0.6, stop_w)
 X = vectorizer.fit_transform(corpus).toarray()
+
+
 from sklearn.feature_extraction.text import TfidTransformer
 transformer = TfidTransformer()
 X = transformer.fit_transform(X).toarray()
 
+
 from sklearn.model_selection import train_test_split
 text_train,text_test,sent_train,sent_test = train_test_split(X,y,test_size=0.2,random_state = 100)
+
+
+from sklearn.linear_model import LogisticRegression
+classifier = LogisticRegression()
+classifier.fit(text_train,sent_train) 
