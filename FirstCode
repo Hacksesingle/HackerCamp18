@@ -1,0 +1,12 @@
+corpus = []
+for i in range(0,len(X)):
+	review = re.suub('r\W',' ',str(X[i]))
+	review = review.lower()
+	review = re.sub(r'\s+[a-z]\s+',' ',review)
+	review = re.sub(r'^[a-z]\s+',' ',review)
+	review = re.sub(r'\s+',' ',review)
+	corpus.append(review)
+
+from sklearn.feature_extraction.text import CountVectorizer
+vectorizer = CountVectorizer(max_features=2000,min_df = 3, max_df = 0.6, stop_
+X = vectorizer.fit_transform(corpus).toarray()
