@@ -23,3 +23,7 @@ with tf.Session(config=config) as sess:
 
 		checkpoint_path = os.path.join(gConfig['working_directory'], "seq2seq.ckpt")
 		model.saver.save(sess, checkpoint_path, global_step=model.global_step)
+
+https://plus.google.com/photos/photo/101252193432304185718/6135710619046373458?sqid=107319989394811377133&ssid=4b4a8bd0-2ecd-466b-9820-c6fad452af38
+https://dribbble.com/shots/2937858-Blink-Bot
+https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fres.cloudinary.com%2Fdgofwp0my%2Fimage%2Fupload%2Fv1498235436%2FDrax_Frequency_GIF_copy_bczyzs.gif&imgrefurl=https%3A%2F%2Fwww.drax.com%2Fenergy-policy%2Fneed-whole-country-frequency%2F&docid=Se2wmsEXFoAv4M&tbnid=wWSQmDNRhlPl_M%3A&vet=10ahUKEwiYlczo_9zeAhUQgUsFHUwCChgQMwg-KAAwAA..i&w=800&h=500&bih=981&biw=1853&q=frequency%20gif%20image&ved=0ahUKEwiYlczo_9zeAhUQgUsFHUwCChgQMwg-KAAwAA&iact=mrc&uact=8#h=500&imgdii=wWSQmDNRhlPl_M:&vet=10ahUKEwiYlczo_9zeAhUQgUsFHUwCChgQMwg-KAAwAA..i&w=800
