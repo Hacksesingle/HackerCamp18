@@ -44,5 +44,5 @@ class ImageLabel(tk.Label):
 root = tk.Tk()
 lbl = ImageLabel(root)
 lbl.pack()
-lbl.load('/home/yash/Desktop/d668abc72809303852c27275e6a56775.gif')
+lbl.load('/home/prerna/Desktop/tenor.gif')
 root.mainloop()
